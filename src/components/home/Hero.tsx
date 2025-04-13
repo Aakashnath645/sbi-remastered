@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -26,7 +25,12 @@ const Hero = () => {
               <Button asChild size="lg" className="bg-white text-sbi-blue hover:bg-gray-100 font-medium">
                 <Link to="/login">Internet Banking</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 flex items-center">
+              <Button 
+                asChild 
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white hover:bg-white/20 hover:text-sbi-blue flex items-center transition-colors duration-300"
+              >
                 <Link to="/personal-banking/savings" className="flex items-center">
                   Explore Services <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
