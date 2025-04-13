@@ -27,7 +27,7 @@ const Hero = () => {
                 <Link to="/login">Internet Banking</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                <Link to="/personal-banking" className="flex items-center">
+                <Link to="/personal-banking/savings" className="flex items-center">
                   Explore Services <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -48,12 +48,12 @@ const Hero = () => {
                         </Link>
                       </Button>
                       <Button asChild variant="ghost" className="justify-start border border-white/30 bg-white/10 hover:bg-white/20">
-                        <Link to="/loans/home-loan">
+                        <Link to="/loans">
                           <span>Home Loan</span>
                         </Link>
                       </Button>
                       <Button asChild variant="ghost" className="justify-start border border-white/30 bg-white/10 hover:bg-white/20">
-                        <Link to="/cards/credit">
+                        <Link to="/cards">
                           <span>Credit Cards</span>
                         </Link>
                       </Button>

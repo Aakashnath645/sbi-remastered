@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CreditCard, Home, GraduationCap, Car, Landmark, Briefcase, PiggyBank, ChevronRight } from 'lucide-react';
+import { CreditCard, Home, GraduationCap, Car, Briefcase, PiggyBank, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface QuickLinkProps {
@@ -39,13 +39,13 @@ const QuickLinks = () => {
       icon: <CreditCard className="h-6 w-6" />,
       title: 'Credit Cards',
       description: 'Explore our range of credit cards with exciting rewards and benefits.',
-      to: '/cards/credit',
+      to: '/cards',
     },
     {
       icon: <Home className="h-6 w-6" />,
       title: 'Home Loans',
       description: 'Make your dream home a reality with our affordable home loan options.',
-      to: '/loans/home-loan',
+      to: '/loans',
     },
     {
       icon: <PiggyBank className="h-6 w-6" />,
@@ -57,13 +57,13 @@ const QuickLinks = () => {
       icon: <Car className="h-6 w-6" />,
       title: 'Car Loans',
       description: 'Get on the road with our quick and hassle-free car loan services.',
-      to: '/loans/car-loan',
+      to: '/loans',
     },
     {
       icon: <GraduationCap className="h-6 w-6" />,
       title: 'Education Loans',
       description: 'Fund your education with our flexible education loan schemes.',
-      to: '/loans/education-loan',
+      to: '/loans',
     },
     {
       icon: <Briefcase className="h-6 w-6" />,
