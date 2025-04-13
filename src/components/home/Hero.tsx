@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -28,8 +29,7 @@ const Hero = () => {
               <Button 
                 asChild 
                 size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white/20 hover:text-sbi-blue flex items-center transition-colors duration-300"
+                className="border-white text-sbi-blue flex items-center"
               >
                 <Link to="/personal-banking/savings" className="flex items-center">
                   Explore Services <ArrowRight className="ml-2 h-4 w-4" />
