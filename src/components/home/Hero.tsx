@@ -29,7 +29,7 @@ const Hero = () => {
               <Button 
                 asChild 
                 size="lg" 
-                className="border-white text-sbi-blue flex items-center"
+                className="border-white text-white hover:bg-white/20 flex items-center"
               >
                 <Link to="/personal-banking/savings" className="flex items-center">
                   Explore Services <ArrowRight className="ml-2 h-4 w-4" />
