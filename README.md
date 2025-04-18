@@ -2,7 +2,7 @@
 
 ## Project info - SBI Remastered
 
-**URL**: Will be updated later.
+**URL**: https://lovable-sbi-remastered.lovable.app/
 
 ## How can I edit this code?
 
@@ -11,7 +11,7 @@ There are several ways of editing your application.
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/Aakashnath645/sbi-remastered>
 
 # Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
