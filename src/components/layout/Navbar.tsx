@@ -54,28 +54,28 @@ const Navbar = () => {
       name: 'Corporate Banking',
       path: '/corporate-banking',
       dropdown: [
-        { name: 'Business Accounts', path: '/corporate-banking/business-accounts' },
-        { name: 'Merchant Services', path: '/corporate-banking/merchant-services' },
-        { name: 'Corporate Loans', path: '/corporate-banking/loans' },
+        { name: 'Business Accounts', path: '/corporate-banking' },
+        { name: 'Merchant Services', path: '/corporate-banking' },
+        { name: 'Corporate Loans', path: '/corporate-banking' },
       ],
     },
     {
       name: 'Loans',
       path: '/loans',
       dropdown: [
-        { name: 'Home Loan', path: '/loans/home-loan' },
-        { name: 'Car Loan', path: '/loans/car-loan' },
-        { name: 'Education Loan', path: '/loans/education-loan' },
-        { name: 'Personal Loan', path: '/loans/personal-loan' },
+        { name: 'Home Loan', path: '/loans' },
+        { name: 'Car Loan', path: '/loans' },
+        { name: 'Education Loan', path: '/loans' },
+        { name: 'Personal Loan', path: '/loans' },
       ],
     },
     {
       name: 'Cards',
       path: '/cards',
       dropdown: [
-        { name: 'Credit Cards', path: '/cards/credit' },
-        { name: 'Debit Cards', path: '/cards/debit' },
-        { name: 'Prepaid Cards', path: '/cards/prepaid' },
+        { name: 'Credit Cards', path: '/cards' },
+        { name: 'Debit Cards', path: '/cards' },
+        { name: 'Prepaid Cards', path: '/cards' },
       ],
     },
     {
